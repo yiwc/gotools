@@ -26,3 +26,7 @@ func Greeting() {
 func (t *Tools) GetVersion() string {
 	return t.version
 }
+
+func (t *Tools) GetDeveloper() string {
+	return t.developer
+}

@@ -16,4 +16,8 @@ func TestHello(t *testing.T) {
 	if v != "0.1" {
 		os.Exit(1)
 	}
+	d := api.GetDeveloper()
+	if d != "yiwc" {
+		os.Exit(1)
+	}
 }
